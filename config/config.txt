@@ -1,0 +1,22 @@
+[credential]
+	helper = cache --timeout=3600
+[user]
+	name = NicolasRichel
+	email = nicolasrichel.github@gmail.com
+[core]
+	editor = vim
+[alias]
+	st = status
+	br = branch
+	cko = checkout
+	stage = add
+	unstage = reset HEAD --
+	aa = add .
+	last = log -1 HEAD
+	ll = log --oneline
+	hist = log --oneline --graph --pretty=\"%h [ %an ] : %s\"
+	uncommit = reset HEAD~
+	update = fetch -p origin
+	upgrade = pull
+[push]
+	default = simple
