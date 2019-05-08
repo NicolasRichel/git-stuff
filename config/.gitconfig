@@ -13,6 +13,7 @@
 	unstage = reset HEAD --
 	aa = add .
 	last = log -1 HEAD
+	show-last = show HEAD
 	ll = log --oneline
 	hist = log --oneline --graph --pretty=\"%h [ %an ] : %s\"
 	uncommit = reset HEAD~
