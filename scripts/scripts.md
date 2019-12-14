@@ -25,3 +25,14 @@ Note : the `<feature-name>` is given as first argument to the script.
 ### New Version script
 **File :** [new_version.sh](./new_version.sh)
 
+### Setup Git script
+**File :** [setup-git.sh](./setup-git.sh)
+
+This script initialize a new Git repository.  
+It takes the repository name as argument, if none it will ask for the user to give one.
+Then it will create a directory, init a git repository in it, set a remote
+and create an initial commit with a basic `README.md` file.  
+At the end it will ask wether to push initial commit.  
+**Important Note :** this script assume the remote URL is pointing to an existing
+empty repository (on GitHub).
+
