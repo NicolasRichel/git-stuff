@@ -36,3 +36,8 @@ At the end it will ask wether to push initial commit.
 **Important Note :** this script assume the remote URL is pointing to an existing
 empty repository (on GitHub).
 
+Example :
+```
+$ setup-git <repository-name>
+```
+
